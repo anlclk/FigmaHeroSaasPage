@@ -1,0 +1,104 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #05285b;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+  span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+  }
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 32px;
+    color: #fff;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 48px;
+  }
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 0;  
+  }
+  .nav {
+    display: flex;
+    gap: 57px;
+    list-style: none;
+  }
+  .headerIcons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+  .main {
+    display: flex;
+  }
+  .mainContent {
+    padding: 160px 0;
+  }
+  .mainBttn {
+    border: solid #DC3545;
+    border-radius: 3px;
+    background-color: #DC3545;
+    margin-bottom: 24px;
+    padding: 16px 72px;
+  }
+  .scheduleIcon {
+    display: flex;
+    gap: 12px
+  }
+  .mainIllustration {
+    padding: 112px 0;
+  }
